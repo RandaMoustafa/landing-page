@@ -35,7 +35,7 @@ h1 {
 
 h2 {
     border-bottom: 1px solid #cc1;
-    font-family: 'Oxygen', Sans-Serif;
+    font-family: 'Oxygen', Sans-Serif, serif;
     font-size: 3em;
     color: #fff;
 }
@@ -74,19 +74,38 @@ section {
     display: inline-block;
 }
 
-.navbar__menu .menu__link {
-    display: block;
+.navbar__menu .menu__link ,
+.navbar__menu li
+{
     padding: 1em;
     font-weight: bold;
-    text-decoration: none;
     color: #000;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+.navbar__menu li a {
+    text-decoration: none;
+}
+/*when hovering li*/
+.navbar__menu .menu__link:hover,
+.navbar__menu li:hover{
+    background: #333;
+   text-decoration: none;
+}
+/*when section is active style*/
+.navbar__menu .menu__link.active {
+    background-color: #333;
 }
 
-.navbar__menu .menu__link:hover {
-    background: #333;
-    color: #fff;
-    transition: ease 0.3s all;
+.navbar__menu .menu__link.active a,
+.navbar__menu .menu__link.active a:link {
+    color: red;
+    text-decoration: none;
 }
+
+
+
+
 
 /* Header Styles */
 .page__header {
@@ -141,7 +160,7 @@ section:nth-of-type(odd) .landing__container::before {
     height: 20vh;
     border-radius: 50%;
     opacity: 0;
-    transition: ease 0.5s all;
+    transition: ease 0.5s ;
 }
 
 section:nth-of-type(even) .landing__container::before {
@@ -156,7 +175,7 @@ section:nth-of-type(even) .landing__container::before {
     height: 10vh;
     border-radius: 50%;
     opacity: 0;
-    transition: ease 0.5s all;
+    transition: ease 0.5s ;
 }
 
 section:nth-of-type(3n) .landing__container::after {
@@ -171,7 +190,7 @@ section:nth-of-type(3n) .landing__container::after {
     height: 10vh;
     border-radius: 50%;
     opacity: 0;
-    transition: ease 0.5s all;
+    transition: ease 0.5s;
 }
 
 section:nth-of-type(3n + 1) .landing__container::after {
@@ -186,7 +205,7 @@ section:nth-of-type(3n + 1) .landing__container::after {
     height: 15vh;
     border-radius: 50%;
     opacity: 0;
-    transition: ease 0.5s all;
+    transition: ease 0.5s;
 }
 
 
