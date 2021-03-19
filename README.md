@@ -3,8 +3,10 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
+* [How to run](#howToRun)  
 * [E6](#E6)
 * [finished](#finished)
+
 
 ## Instructions
 
@@ -17,6 +19,10 @@ For specific, detailed instructions, look at the project instructions in the Uda
  ## E6
 I have used E6 and javaScript and browser function which working with the latest version of browsers.
 Most of the changes have happened in the js/app.js file, and some changes for styling in styles.css.
+
+ ## HowToRun
+to run this project in a local development server with no-cache enabled and automatically opening your standard browser.
+Make some changes and reload the browser, and the changes are applied.
 
  ## finished
 This project has been worked with dynamic generated Navigation list and make every section active when scroll 
