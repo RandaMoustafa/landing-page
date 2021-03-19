@@ -42,7 +42,6 @@ nav.forEach(e => {
     const navListElement = `<li class='menu__link ${e.className}' data-link=${e.id}>
 <a href="#${e.id}">${e.dataset.nav}</li>`
     navList.insertAdjacentHTML('beforeend', navListElement);
-    //console.log(e);
 });
 
 // Add class 'active' to section when near top of viewport
@@ -66,8 +65,8 @@ const callBack = top => {
             }
         }
     });
-    //console.log(top);
 };
+
 
 // Scroll to anchor ID using scrollTO event
 navList.addEventListener('click', e => {
