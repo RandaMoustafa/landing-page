@@ -13,10 +13,14 @@ The starter project has some HTML and CSS styling to display a static version of
 To get started, open `js/app.js` and start building out the app's functionality
 
 For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+
  ## E6
 I have used E6 and javaScript and browser function which working with the latest version of browsers.
-Most of the changes have happened in the js/app.js file, and some changes for styling in styles.css
-##finished
+Most of the changes have happened in the js/app.js file, and some changes for styling in styles.css.
+
+ ## finished
 This project has been worked with dynamic generated Navigation list and make every section active when scroll 
 down .
+
+
 
